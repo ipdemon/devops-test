@@ -4,7 +4,7 @@
 
 Customer has a Web application written in python with Flask which uses a Postgres relational database management system. 
 Application exposes the REST API that allows querying the database and retrieve the dataset. 
-Currently the app is hosted in a colocation on physical servers and customer wants to migrate it to the cloud. 
+Currently the app is hosted in a co-location on physical servers and customer wants to migrate it to the cloud. 
 Your task is to advise the deployment scenario, propose tools, create all necessary configurations 
 and execute the application migration (assuming there should be no downtime).
 
@@ -32,5 +32,6 @@ should be allowed to access the API;
 - Install requirements;
 - run app.py;
 
-####Sample Target Architecture:
-<img src="app_setup.png" width="480" height="480">
+####Sample Target Architecture:  
+
+<img src="app_setup.png" width="640" height="480">
