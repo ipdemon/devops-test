@@ -1,6 +1,6 @@
 # DevOps Test Task
 
-####Use-case:
+###Use-case:
 
 Customer has a Web application written in python with Flask which uses a Postgres relational database management system. 
 Application exposes the REST API that allows querying the database and retrieve the dataset. 
@@ -8,7 +8,7 @@ Currently the app is hosted in a co-location on physical servers and customer wa
 Your task is to advise the deployment scenario, propose tools, create all necessary configurations 
 and execute the application migration (assuming there should be no downtime).
 
-####Requirements:
+###Requirements:
 - Deployment of the Infrastructure and application should be automated and described as a code. 
 Choose cloud provider and technology on you own;
 - Application should be containerized;
@@ -19,19 +19,19 @@ should be allowed to access the API;
 - SSL should be used to secure the http traffic (self-signed certificate may be used);
 - Project should be published on GitHub;
 
-####KPI:
+###KPI:
 - Application could be deployed and launched in the cloud;
 - API endpoints returns data;
 - Communications are secured;
 - Infrastructure as code, automation scripts and configurations are available on GitHub;
 
-####How-to start the app:
+###How-to start the app:
 - Set environmental variables;
 - Setup database using provided sql script;
 - Use Python 3;
 - Install requirements;
 - run app.py;
 
-####Sample Target Architecture:  
+###Sample Target Architecture:  
 
 <img src="app_setup.png" width="640" height="480">
