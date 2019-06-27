@@ -8,11 +8,17 @@ Currently the app is hosted in a co-location on physical servers and customer wa
 Your task is to advise the deployment scenario, propose tools, create all necessary configurations 
 and execute the application migration (assuming there should be no downtime).
 
-### Requirements:
-- Deployment of the Infrastructure and application should be automated and described as a code. 
-Choose cloud provider and technology on you own;
-- Application should be containerized;
-- Autoscaling for application should be considered;
+### Coding
+Add application functionality from list below:
+- new endpoint 
+  - accepting POST type requests
+  - accepting JSON payload
+  - able to add new rows into the database with fields from the payload
+
+### Infrastructure specific requirements:
+- Deployment of the Infrastructure and application should be automated and described as a code. Use Azure DevOps service. 
+- Application should be run in Azure App Services;
+- Application should be presented as a docker image;
 - There should be no self-managed servers used in the solution;
 - Access to the application should be restricted: only whitelisted IP addresses/networks 
 should be allowed to access the API;
@@ -34,4 +40,4 @@ should be allowed to access the API;
 
 ### Sample Target Architecture:  
 
-<img src="app_setup.png" width="640" height="480">
+<img src="app_setup.png" width="420" height="480">
